@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="app">
       <h1> Slack clone</h1>
-      {/* HEADER */}
+      <Header />
       {/* SIDEBAR */}
       {/* REACT-ROUTER -> chat screen*/}
     </div>
