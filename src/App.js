@@ -1,13 +1,15 @@
 import "./App.css";
-import Header from "./Header";
+import Header from "./components/Header";
+import Sidebar from "./components/Sidebar.js";
 
 function App() {
   return (
     <div className="app">
-      <h1> Slack clone</h1>
       <Header />
-      {/* SIDEBAR */}
-      {/* REACT-ROUTER -> chat screen*/}
+      <div className="app__body">
+        <Sidebar />
+        {/* REACT-ROUTER -> chat screen*/}
+      </div>
     </div>
   );
 }
