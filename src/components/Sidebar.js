@@ -34,7 +34,7 @@ const Sidebar = () => {
     <div className="sidebar">
       <div className="sidebar__header">
         <div className="sidebar__info">
-          <h2>PLC</h2>
+          <h2>PLC HQ</h2>
           <h3>
             <FiberManualRecordIcon /> {user?.displayName}
           </h3>
@@ -56,7 +56,6 @@ const Sidebar = () => {
       {channels.map((channel) => (
         <SidebarOption title={channel.name} id={channel.id} />
       ))}
-      {/* Database here - list all the channels using SidebarOption comp*/}
     </div>
   );
 };
